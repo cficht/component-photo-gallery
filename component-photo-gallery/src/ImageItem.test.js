@@ -1,11 +1,11 @@
 import React from 'react';
 // import { render } from '@testing-library/react';
-import App from './App';
+import ImageItem from './ImageItem';
 import renderer from "react-test-renderer";
 
-test('renders App.js correctly', () => {
+test('renders ImageItem.js correctly', () => {
   const tree = renderer
-  .create(<App />)
+  .create(<ImageItem />)
   .toJSON();
   expect(tree).toMatchSnapshot();
 });
