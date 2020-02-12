@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#header-main {
+  border: 1px solid black;
+  height: 200px;
+}
+
+#list-main {
+  border: 1px solid black;
+}
+
+#list-top {
+  border: 1px solid black;
+  height: 100px;
+}
+
+#image-list {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+}
+
+.list-item {
+  border: 1px solid black;
+  height: 500px;
+  width: 300px;
+  float: left;
+  list-style-type: none;
+}
+
+li img {
+  width: 200px;
+}
