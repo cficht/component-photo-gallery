@@ -13,7 +13,7 @@ export default class ImageList extends Component {
             if(!this.state.selected ) return true;
                 return horned.keyword === this.state.selected || horned.horns === Number(this.state.selected);
         })
-        const imageComponents = filteredData.map(image => <ImageItem horned={image} />)
+        const imageComponents = filteredData.map(image => <ImageItem horned={image} key={image.title}/>)
            
         const handleChange = e => {
             this.setState({selected: e.target.value})
@@ -23,10 +23,10 @@ export default class ImageList extends Component {
             <div id="list-main">
                 <div id="list-top">
                     <select onChange={handleChange}>
-                        {this.props.images.map(image => <option>{image.keyword}</option>)}
+                        {this.props.images.map(image => <option key={image.title}>{image.keyword}</option>)}
                     </select>
                     <select onChange={handleChange}>
-                        {this.props.images.map(image => <option>{image.horns}</option>)}
+                        {this.props.images.map(image => <option key={image.title}>{image.horns}</option>)}
                     </select>
                 </div>
                 <div id="image-list">
