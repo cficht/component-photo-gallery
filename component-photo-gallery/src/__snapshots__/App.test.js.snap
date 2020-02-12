@@ -143,6 +143,70 @@ exports[`renders App.js correctly 1`] = `
           100
         </option>
       </select>
+      <select
+        onChange={[Function]}
+      >
+        <option>
+          UniWhal
+        </option>
+        <option>
+          Rhino Family
+        </option>
+        <option>
+          Unicorn Head
+        </option>
+        <option>
+          UniLego
+        </option>
+        <option>
+          Basically a unicorn
+        </option>
+        <option>
+          #truth
+        </option>
+        <option>
+          Baby Rhino
+        </option>
+        <option>
+          Cera
+        </option>
+        <option>
+          Narwhal costume
+        </option>
+        <option>
+          Rhino costume
+        </option>
+        <option>
+          Believe
+        </option>
+        <option>
+          Markhor
+        </option>
+        <option>
+          Baby markhor
+        </option>
+        <option>
+          Mouflon
+        </option>
+        <option>
+          Addax
+        </option>
+        <option>
+          Baby mouflon
+        </option>
+        <option>
+          Happy Jackson's Chameleon
+        </option>
+        <option>
+          Serious Jackson's Chameleon
+        </option>
+        <option>
+          Horned Lizard
+        </option>
+        <option>
+          Smaug
+        </option>
+      </select>
     </div>
     <div
       id="image-list"
